@@ -1,0 +1,523 @@
+:root{
+    --main-color: #0078ff 
+}
+
+
+
+/* ...............Start HTML............... */
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: #f5f5f5 !important;
+}
+i{
+    font-size: 32px;
+}
+.title{
+    position: relative;
+    margin: 70px;
+}
+.title h2{
+    font-size: 48px;
+    font-weight: 700;
+}
+.title::after{
+    content: "";
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+   width: 40px;
+   height: 5px;
+   background-color: var(--main-color);
+}
+.section .container{
+    width: 75%;
+}
+/* ...............END HTML............... */
+ 
+
+
+
+
+/* ...............Start navbar............... */ 
+.navbar-nav li {
+    transition: 1s;
+    }
+    .nav-item .item-border{
+        width: 0px;
+        height: 3px;
+        left: 5px;
+        transition: 1s;
+        overflow: hidden;
+        opacity: 0;
+        right: 110px;
+        position: absolute;
+        background-color: #0078ff;
+    }
+    .nav-item:hover .item-border{
+        width: 40px;
+        opacity: 1;
+    }
+    .nav-item{
+        position: relative;
+    }
+nav .container-fluid{
+    width: 75%;
+}
+/* ...............End navbar............... */
+
+
+
+
+
+/* ...............START HOME............... */
+#home{
+    background-image: url(./DevFoli-Img/intro-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.Homechild{
+    background-color: rgba(0, 0, 0, 0.6);
+
+}
+.content h1{
+    font-size: 4.5rem;
+}
+.content p{
+    font-size: 2.5rem;
+}
+#home p:after{
+    content: "";
+    animation-name: slider;
+    animation-duration: 18s;
+    animation-iteration-count: infinite;
+}
+@keyframes slider{
+    
+        
+    100% {content: "c";}
+    0% {content: "Ce";}
+    0.5% {content: "Ceo";}
+    1% {content: "Ceo ";}
+    1.5% {content: "Ceo d";}
+    2% {content: "Ceo de";}
+    2.5% {content: "Ceo dev";}
+    3% {content: "Ceo devf";}
+    3.5% {content: "Ceo devfo";}
+    4% {content: "Ceo devfol";}
+    4.5% {content: "Ceo devfoli";}
+    5% {content: "Ceo devfolio";}
+
+    7.5% {content: "Ceo devfoli";}
+    8% {content: "Ceo devfol";}
+    8.5% {content: "Ceo devfo";}
+    9% {content: "Ceo devf";}
+    9.5% {content: "Ceo dev";}
+    10% {content: "Ceo de";}
+    10.5% {content: "Ceo d";}
+    11% {content: "Ceo ";}
+    11.5% {content: "Ceo";}
+    12% {content: "Ce";}
+    12.5% {content: "C";}
+    13% {content: "W";}
+    14% {content: "We";}
+    15% {content: "Web";}
+    16% {content: "Web ";}
+    17% {content: "Web D";}
+    18% {content: "Web De";}
+    19% {content: "Web Dev";}
+    20% {content: "Web Deve";}
+    21% {content: "Web Devel";}
+    22% {content: "Web Develo";}
+    23% {content: "Web Develop";}
+    24% {content: "Web Develope";}
+    25% {content: "Web Developer";}
+
+26% {content: "Web Develope";}
+    26.5% {content: "Web Develop";}
+    27% {content: "Web Develo";}
+    27.5% {content: "Web Devel";}
+    28% {content: "Web Deve";}
+    28.5% {content: "Web Dev";}
+    29% {content: "Web De";}
+    30% {content: "Web Des";}
+    31% {content: "Web Desi";}
+    32% {content: "Web Desig";}    
+    33% {content: "Web Design";}
+    34% {content: "Web Designe";}
+    35% {content: "Web Designer";}
+    35.5% {content: "Web Designe";}
+    36% {content: "Web Design";}
+    36.5% {content: "Web Desig";}
+    37% {content: "Web Desi";}
+    37.5% {content: "Web Des";}
+    38% {content: "Web De";}
+    38.5% {content: "Web D";}
+    39% {content: "Web ";}
+    39.5% {content: "Web";}
+    40% {content: "We";}
+    40.5% {content: "W";}
+    41% {content: "F";}
+
+    42% {content: "Fr";}
+    43% {content: "Fro";}
+    44% {content: "Fron";}
+    45% {content: "Front";}
+    46% {content: "Fronte";}
+    47% {content: "Fronten";}
+    48% {content: "Frontend";}
+    49% {content: "Frontend ";}
+    50% {content: "Frontend D";}
+    51% {content: "Frontend De";}
+    52% {content: "Frontend Dev";}
+    53% {content: "Frontend Deve";}
+    54% {content: "Frontend Devel";}
+    55% {content: "Frontend Develo";}
+    56% {content: "Frontend Develop";}
+    57% {content: "Frontend Develope";}
+    58% {content: "Frontend Developer";}
+    63.5% {content: "Frontend Develope";}
+    64% {content: "Frontend Develop";}
+    64.5% {content: "IFrontend Develo";}
+    65% {content: "Frontend Devel";}
+    65.5% {content: "Frontend Deve";}
+    66% {content: "Frontend Dev";}
+    66.5% {content: "Frontend De";}
+    67% {content: "Frontend D";}
+    67.5% {content: "Frontend ";}
+    68% {content: "Frontend";}
+    68.5% {content: "Fronten";}
+    69% {content: "Fronte";}
+    69.5% {content: "Front";}
+    70% {content: "Fron";}
+    70.5% {content: "Fro";}
+    71% {content: "Fr";}
+    71.5% {content: "F";}
+    72% {content: "G";}
+    73% {content: "Gr";}
+    74% {content: "Gra";}
+    75% {content: "Grap";}
+    76% {content: "Graph";}
+    77% {content: "Graphi";}
+    78% {content: "Graphic";}
+    79% {content: "Graphic ";}
+    80% {content: "Graphic D";}
+    81% {content: "Graphic De";}
+    82% {content: "Graphic Des";}
+    83% {content: "Graphic Desi";}
+    84% {content: "Graphic Desig";}
+    85% {content: "Graphic Design";}
+    86% {content: "Graphic Designe";}
+    87% {content: "Graphic Designer";}
+    92.5% {content: "Graphic Designe";}
+    93% {content: "Graphic Design";}      
+    93.5% {content: "Graphic Desig";}
+    94% {content: "Graphic Desi";}
+    94.5% {content: "Graphic Des";}
+    95% {content: "Graphic De";}
+    95.5% {content: "Graphic D";}
+    96% {content: "Graphic ";}
+    96.5% {content: "Graphic";}
+    97% {content: "Graphi";}
+    97.5% {content: "Graph";}
+    98% {content: "Grap ";}
+    98.5% {content: "Gra";}
+    99% {content: "Gr";}
+    99.5% {content: "G";
+    
+}
+}
+/* ...............END Home............... */
+
+
+
+
+
+/* ...............START ABOUT............... */
+.skills p{
+    margin-bottom: 0.25rem;
+}
+#About span{
+    font-size: 18px;
+    font-weight: 600;
+}
+/* ...............END ABOUT............... */
+
+
+
+
+
+/* ...............START SERVICES............... */
+#Services i{
+    font-size: 64px;
+}
+#Services .col-md-4 i{
+    position: absolute;
+    color: black;
+    transition: .5s;
+    font-size: 64px;
+
+}
+#Services .col-md-4:hover i{
+    position: absolute;
+    font-size: 64px;
+    scale: 1.1;
+    color: #fff;
+}
+#Services .icon{
+    position: relative;
+    width: 130px;
+    height: 130px;
+    margin: auto;
+    display: flex;
+    margin: 30px auto  ;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 10px solid #0078ff;
+    text-align: center;
+    transition: .5s;
+}
+#Services .col-md-4:hover .icon{
+    border-color: #cde1f8;
+    scale: .9;
+    background-color: var(--main-color);
+}
+/* ...............START SERVICES............... */
+
+
+
+
+
+/* ...............START FACTS............... */
+#Facts .icon{
+    border: solid 7px #fff;
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    text-align: center;
+}
+#Facts{
+    background-image: url(DevFoli-Img/post-3.jpg);
+    background-attachment:fixed;
+  background-position: center;
+  background-size: cover;
+  
+    height: 50vh;
+}
+#Facts .container-fluid{
+    height: 50vh;
+    background-color: rgba(0, 120,255, 0.7);
+    color: #fff;
+}
+/* ...............END FACTS............... */
+
+
+
+
+
+/* ...............START PORTFOLIO............... */
+#Portfolio i{
+    font-size: 24px !important;
+     color: var(--main-color);
+ }
+ #Portfolio  .img {
+ transition: 1s;
+ }
+ #Portfolio .card .test {
+ 
+     overflow: hidden;
+ }
+ #Portfolio .col-md-4:hover img{
+     scale: 1.2;
+     
+ transition: 1s;
+ }
+ .icon{
+     
+     border: solid 1px var(--main-color) ;
+     border-radius: 50%;
+     width: 2rem;
+     height: 2rem;
+     text-align: center;
+ }
+ /* ...............END PORTFOLIO............... */
+
+
+
+
+
+/* ...............START CAROUSEL............... */
+#carouselExampleIndicators{
+    background-image: url(Devfoli-Img/overlay-bg.jpg);
+background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}    
+.carousel-inner{
+font-size: 1.25rem;
+color: #fff; 
+height: 90vh;
+    background-color:var(--main-color);
+    background-color: rgba(0, 120,255, 0.7);
+}
+.carousel-inner img{
+border-radius: 50%;
+}
+#Carousel i {
+    color: var(--main-color);
+}
+.quote{
+    width: 60px;
+    height: 60px;
+}
+/* ...............END CAROUSEL............... */
+
+
+
+
+
+/* ...............START BLOG............... */
+.card card-img img{
+    position: relative;
+}
+.card button{
+    font-size: 14px;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+      transform: translateX(-50%);
+}
+/* ...............END BLOG............... */
+
+
+
+
+
+ /* ...............START CONTACT............... */
+#Contact{
+
+    background-image: url(Devfoli-Img/overlay-bg.jpg) ;
+        }
+#Contact .container-fluid{
+    background-color: var(--main-color);
+   background-color: rgba(0, 120,255, 0.7);
+margin: auto;    
+}
+.Sm-title h2{
+    text-align: left;
+    font-size: 32px;
+    font-weight: 500;
+}
+.Sm-title::after{
+    content: "";
+   position: absolute;
+   top: calc(100% + 20px);
+   left: 0%;
+   width: 100px;
+
+   height: 3px;
+   background-color: var(--main-color);
+}
+.Sm-title{
+text-align: left;
+    position: relative;
+left: 0%;
+
+}
+#Contact .icon{
+    border: solid 4px var(--main-color) ;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+}
+#Contact button{
+    background-color: #0078ff;
+    color: #fff;
+    display: inline-block; 
+    padding: 0.9rem 2.3rem;
+    vertical-align: middle;
+    font-size: 1.2rem;
+    border-radius: 5rem;
+    border: 1px solid transparent;
+    cursor: pointer;
+    border-color: #cde1f8;
+}
+#Contact i{
+    font-size: 24px;
+}
+#Contact li i{
+    font-size: 20px;
+    vertical-align: middle;
+    padding-right:  10px ;
+}
+#form input {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+#form{
+    font-size: 20px;
+    font-weight: 300;
+}
+#form textarea {
+    display: block;
+    width: 100%;
+    height: 9rem;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+/* ...............END CONTACT............... */
+
+
+
+
+
+@media screen and (max-width:768px){
+    .section .container{
+         width: 100%;
+     }
+     nav .container-fluid{
+         width: 100%;
+     }
+ #facts{
+     background-image: url(DevFoli-Img/post-3.jpg);
+     background-attachment:fixed;
+   background-position: center;
+   background-size: cover; 
+     height: 200vh;
+ } 
+ #Carousel .carousel-item {
+     padding: 0px !important;
+     margin: 0;
+ }
+ #facts .container-fluid{
+     height: 200vh;
+     background-color:var(--main-color);
+     opacity: 0.7;
+     color: #fff;
+ }
+ .carousel-indicators{
+  display: none;
+ }
+
+ }
+ 
+ 
